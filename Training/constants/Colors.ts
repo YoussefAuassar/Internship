@@ -24,3 +24,23 @@ export const Colors = {
     tabIconSelected: tintColorDark,
   },
 };
+
+export const IMAGES = {
+  profilePicture: require("../assets/images/profile-picture.png"),
+};
+
+export const COLORS = {
+  darkGray: "#25292e",
+  lightGray: "#6e6e6e", 
+  coral: "#FFA384", 
+  lightGraySeparator: "#ccc", 
+};
+
+
+export const TEXT = {
+  greeting: "Hi John!",
+  scans: "50+ Scans",
+  ticketNumber: "124",
+  viewEntries: "View Entries",
+};
+
