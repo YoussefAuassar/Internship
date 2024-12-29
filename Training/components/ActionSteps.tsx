@@ -1,5 +1,5 @@
 import React from "react";
-import { Image, View, Text, StyleSheet } from "react-native";
+import {View, Text, StyleSheet } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import { Colors } from "@/constants/Colors";
 
@@ -33,14 +33,14 @@ export default function ActionSteps() {
 const styles = StyleSheet.create({
 	container: {
 		flexDirection: "row",
-		paddingHorizontal: 15,
+		paddingHorizontal: 5,
 		justifyContent: "space-between",
 		alignItems: "center",
 	},
 	box: {
 		flex: 1,
-		marginHorizontal: 5,
-		backgroundColor: Colors.white,
+		marginHorizontal: 4,
+	    backgroundColor: "#fff",
 		padding: 10,
 		borderRadius: 8,
 		alignItems: "center",

@@ -1,12 +1,16 @@
-import React from 'react';
-import { View, Text } from 'react-native';
+import React from "react";
+import { View, StyleSheet } from "react-native";
+import { Colors } from "@/constants/Colors";
 
 function ProfileScreen() {
-  return (
-    <View>
-      <Text>Profile Screen</Text>
-    </View>
-  );
+	return <View style={styles.container}></View>;
 }
 
 export default ProfileScreen;
+
+const styles = StyleSheet.create({
+	container: {
+		flex: 1,
+		backgroundColor: Colors.whiteGray,
+	},
+});

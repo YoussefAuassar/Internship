@@ -38,8 +38,8 @@ const styles = StyleSheet.create({
 	header: {
 		flexDirection: "row",
 		alignItems: "center",
-		paddingHorizontal: 20,
-		paddingTop: 40,
+		paddingHorizontal: 10,
+		paddingTop: 36,
 		flexWrap: "wrap",
 		justifyContent: "space-between",
 	},

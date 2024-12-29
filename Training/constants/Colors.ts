@@ -30,7 +30,8 @@ export const Colors = {
 	lightBlue: "#0a7ea4",
 	lightGreen: "#40c6a0",
 	orange: "#FFBA4B",
-	white:"#fff",
-	black:"#151718",
+	white: "#fff",
+	black: "#151718",
+	whiteGray: "#f8f7f3",
 	
 };
