@@ -1,6 +1,6 @@
 # React Native Mamori Foods Internship Training & Task
 
-## Overview
+# Overview
 
 This project is part of my internship at Casasoft, designed to enhance my skills with React Native and Expo. Through this training, I’ve learned how to apply React Native best practices, including:
 
@@ -9,7 +9,7 @@ This project is part of my internship at Casasoft, designed to enhance my skills
 - Understanding React Native syntax and structure.
 
 
-### Get started
+# Get started
 
 1. Install dependencies: 
 
@@ -30,7 +30,7 @@ This project is part of my internship at Casasoft, designed to enhance my skills
 - Scan the QR code displayed in the terminal or browser with your phone's camera to load the app.
 
 
-#### Used Libraries & Tools
+# Used Libraries & Tools
 
 - [react-native-countdown](https://www.npmjs.com/package/react-native-countdown-component?activeTab=readme)
 - [Expo LinearGradient](https://docs.expo.dev/versions/latest/sdk/linear-gradient/)
@@ -38,7 +38,7 @@ This project is part of my internship at Casasoft, designed to enhance my skills
 - [mockfly logo](https://www.mockfly.dev/)
 
 
-##### Components/: Contains components for the application.
+# Components/: Contains components for the application.
 
 - **Header.tsx:** Displays a profile picture along with accompanying text to welcome the user.
 - **ActionSteps.tsx:** Features three distinct boxes, each containing a unique icon, visually guiding users through different steps.
@@ -46,8 +46,12 @@ This project is part of my internship at Casasoft, designed to enhance my skills
 - **Details.tsx:** Provides static information
 - **Button.tsx:** A customizable button component used for various actions throughout the app.
 
-###### Constants/: 
+# Constants/: 
 
 - Colors.ts
 - Images.ts
 - Texts.ts
+
+# pages/: 
+
+- blank.tsx

@@ -80,7 +80,7 @@ export default function TabLayout() {
 						<Ionicons size={28} name="person" color={color} />
 					),
 				}}
-			/>
+			/> 
 		</Tabs>
 	);
 }
