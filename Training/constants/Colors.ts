@@ -33,5 +33,7 @@ export const Colors = {
 	white: "#fff",
 	black: "#151718",
 	whiteGray: "#f8f7f3",
+	brown: "#40403e",
+	orangeRed: "#ff7c5b",
 
 };

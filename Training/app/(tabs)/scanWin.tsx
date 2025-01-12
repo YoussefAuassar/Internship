@@ -5,9 +5,10 @@ import ActionSteps from "@/components/ActionSteps";
 import CountDown from "@/components/CountDown";
 import Button from "@/components/Button";
 import Details from "@/components/Details";
-
 import { Colors } from "@/constants/Colors";
+import { Images } from "@/constants/Images";
 import { useRouter } from "expo-router";
+import VoucherCard from "@/components/Voucher";
 
 function ScanWinScreen() {
 	const router = useRouter();
@@ -31,6 +32,29 @@ function ScanWinScreen() {
 					<Details />
 				</View>
 
+				<View style={styles.voucherContainer}>
+					<VoucherCard
+						imageSource={Images.welbees}
+						amount="€1,000"
+						description="SHOPPING VOUCHER"
+						textBoxColor={Colors.lightGreen}
+						coinImageSource={Images.goldcoin}
+					/>
+					<VoucherCard
+						imageSource={Images.greens}
+						amount="€100"
+						description="SHOPPING VOUCHER"
+						textBoxColor={Colors.brown}
+						coinImageSource={Images.silvercoin}
+					/>
+					<VoucherCard
+						imageSource={Images.pavipama}
+						amount="€50"
+						description="SHOPPING VOUCHER"
+						textBoxColor={Colors.orangeRed}
+						coinImageSource={Images.browncoin}
+					/>
+				</View>
 
 				<View style={styles.button}>
 					<Button
@@ -63,7 +87,10 @@ export default ScanWinScreen;
 
 const styles = StyleSheet.create({
 	voucherContainer: {
-		marginTop: 25,
+		flexDirection: "row",
+		justifyContent: "space-between",
+		marginHorizontal: 10,
+		marginTop: 15,
 	},
 
 	safeContainer: {
