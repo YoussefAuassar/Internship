@@ -32,7 +32,7 @@ This project is part of my internship at Casasoft, designed to enhance my skills
 
 # Tabs/: 
 
-- **scanWin.tsx:** All the components are displayed insidede this tab (Scan & Win)
+- **scanWin.tsx:** All the components are displayed inside this tab (Scan & Win)
 
 
 # Components/: Contains components for the application.
