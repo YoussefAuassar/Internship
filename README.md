@@ -55,3 +55,10 @@ This project is part of my internship at Casasoft, designed to enhance my skills
 # pages/: 
 
 - blank.tsx
+
+# Tutorials
+
+- [React Native Tutorial - 43 - SafeAreaView](https://www.youtube.com/watch?v=K9RqNkXV6R4)
+- [React Native Tutorial - 11 - Scroll View](https://www.youtube.com/watch?v=h3GRIsUQP3M&list=PLC3y8-rFHvwhiQJD1di4eRVN30WWCXkg1&index=11)
+
+
