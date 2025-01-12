@@ -90,7 +90,7 @@ const styles = StyleSheet.create({
 		flexDirection: "row",
 		justifyContent: "space-between",
 		marginHorizontal: 10,
-		marginTop: 15,
+		marginTop: 22,
 	},
 
 	safeContainer: {
@@ -111,11 +111,11 @@ const styles = StyleSheet.create({
 	},
 
 	timer: {
-		marginTop: 10,
+		marginVertical: 15,
 	},
 
 	button: {
-		marginTop: 10,
+		marginTop: 15,
 	},
 
 	secondarybutton: {
@@ -136,7 +136,5 @@ const styles = StyleSheet.create({
 		marginTop: 10,
 	},
 
-	details: {
-		marginTop: 10,
-	},
+	details: {},
 });
